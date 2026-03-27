@@ -1,14 +1,13 @@
 SGOLab
 =========================
 
-> *"Dadme un punto de apoyo y moveré al mundo"*
->
-> Arquímides
-
-
-SGOLab es un proyecto personal del programa de investigación *Towards Scalable Geometric Optimization*. Este proyecto explora cómo las representaciones geométricas y sistemas de referencia relativos pueden ser utiizados para replantear y mejorar la optimización *black-box* a gran escala.
+SGOLab es un proyecto personal del programa de investigación *Towards Scalable Geometric Optimization*. Este proyecto explora cómo las representaciones geométricas y sistemas de referencia relativos pueden ser utilizados para replantear y mejorar la optimización *black-box* a gran escala.
 
 ## Motivación
+
+> *"Dadme un punto de apoyo y moveré al mundo"*
+>
+> Arquímedes
 
 En esta sección se escribirán las motivaciones
 
@@ -33,7 +32,7 @@ El desarrollo, las pruebas y ejecución de los experimentos de este proyecto se 
 
 Actualmente me encuentro redactando el *whitepaper* y los artículos académicos para documentar formalmente el modelo matemático y someterlo a revisión. Por esta razón, partes del código y de la implementación se mantienen en acceso restringido.
 
-Si deseas conocer más sobre mi trabajo, estás interesado en formar una colaboración de investigación, o deseas discutir oportunidades de apoyo y financiamiento para el proyecto, puedes solicitar acceso o más información a través de mi correo: [misa.hdez97@proton.me](misa.hdez97@proton.me)
+Si deseas conocer más sobre mi trabajo, estás interesado en formar una colaboración de investigación, o deseas discutir oportunidades de apoyo y financiamiento para el proyecto, puedes solicitar acceso o más información a través de mi correo: [misa.hdez97@proton.me](mailto:misa.hdez97@proton.me)
 
 ## Pendientes 
 
