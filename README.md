@@ -5,7 +5,7 @@ SGOLab es un proyecto personal del programa de investigación *Towards Scalable 
 
 ## Motivation
 
-> "Give me a lever and a place to stand and I will move the earth"
+> *"Give me a lever and a place to stand and I will move the earth"*
 >
 > Archimedes
 
