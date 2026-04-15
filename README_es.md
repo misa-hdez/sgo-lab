@@ -10,18 +10,20 @@ Bajo este enfoque, en lugar de modelar explícitamente la función, SGOLab explo
 
 ## Motivación
 
-> *"Dadme un punto de apoyo y moveré al mundo"*
->
-> — Arquímedes
+"Dadme un punto de apoyo y moveré al mundo"
+— Arquímedes
 
-> En esta sección se escribirán las motivaciones.
+En términos generales, el Teorema No Free Lunch (NFL) establece que ningún algoritmo de optimización es universalmente superior a los demás y que, en ausencia de supuestos sobre la estructura del problema, todos presentan el mismo rendimiento promedio. La aparente superioridad de un método emerge únicamente cuando este logra explotar regularidades específicas de la función objetivo.
 
-En términos simples, el Teorema No Free Lunch establece que ningún algoritmo es universalmente superior.
+En el contexto de la optimización *black-box*, dichas regularidades no son accesibles *a priori* y deben inferirse a partir de los puntos evaluados. Este proceso se vuelve especialmente costoso en escenarios de alta dimensionalidad o cuando cada evaluación implica un gasto computacional significativo, limitando la eficiencia de los enfoques tradicionales.
 
+Bajo estas condiciones, surge una pregunta fundamental:
 
-En NFL establece que para superar el rendimiento promedio, un algoritmo debe explotar las regularidades o estructura de la función. En optimización *black-box* esta estructura es invisible de antemano y solo se infiere de puntos evaluados
+> ¿Es posible guiar el proceso de búsqueda de forma eficiente sin reconstruir explícitamente el paisaje de la función?
 
+A lo largo de la historia, tanto en matemáticas como en física, problemas complejos han sido abordados mediante su representación en espacios alternativos, donde ciertas estructuras se vuelven más accesibles, como ocurre con las transformadas de Fourier y Laplace.
 
+Mientras que gran parte de los enfoques actuales se centran en aprender o aproximar la información del codominio para modelar el comportamiento de la función, SGOLab parte de una premisa distinta: el dominio no es un espacio inerte, sino una fuente potencial de estructura. En este contexto, la investigación no se centra en la reconstrucción del paisaje de la función, sino en la navegación inteligente del espacio mediante sistemas de referencia geométricos inducidos por las relaciones entre las muestras.
 
 ## Avances
 
