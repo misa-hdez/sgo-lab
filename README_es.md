@@ -10,8 +10,9 @@ Bajo este enfoque, en lugar de modelar explícitamente la función, SGOLab explo
 
 ## Motivación
 
-"Dadme un punto de apoyo y moveré al mundo"
-— Arquímedes
+> "Dadme un punto de apoyo y moveré al mundo"
+>
+> — Arquímedes
 
 En términos generales, el Teorema No Free Lunch (NFL) establece que ningún algoritmo de optimización es universalmente superior a los demás y que, en ausencia de supuestos sobre la estructura del problema, todos presentan el mismo rendimiento promedio. La aparente superioridad de un método emerge únicamente cuando este logra explotar regularidades específicas de la función objetivo.
 
