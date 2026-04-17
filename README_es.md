@@ -37,9 +37,22 @@ Este enfoque no busca resolver el problema original de forma directa, sino tradu
 
 ### Validación experimental
 
+#### Escalabilidad con presupuesto fijo de evaluaciones
+
 | Imagen 1                                                                                                            | Imagen 2                                                                                                    |
 | ---------------------------------------------------------------------------------------------------------------------| -------------------------------------------------------------------------------------------------------------|
 | ![Scalability Hypersphere](results/preliminary-results/benchmark-functions/hypersphere/scalability-hypersphere.png) | ![Scalability Schwefel](results/preliminary-results/benchmark-functions/schewefel/scalability-schwefel.png) |
+
+
+#### Dimensiones extremas
+
+![Scalability Hypersphere](results/preliminary-results/benchmark-functions/hypersphere/dim_1000000/Convergence_Hypersphere_D1000000_run1.png)
+
+#### Importancia de la medida relativa de progreso
+
+![Scalability Hypersphere](results/preliminary-results/opfunu/cec2017/F18-Hybrid-Function-9/dim_100/convergence_analysis.png)
+
+
 
 
 ## Dependencias
