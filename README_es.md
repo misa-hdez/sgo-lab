@@ -39,14 +39,16 @@ Este enfoque no busca resolver el problema original de forma directa, sino tradu
 
 #### Escalabilidad con presupuesto fijo de evaluaciones
 
-| Función Unimodal                                                                                                            | Función Multimodal                                                                                                    |
+| Función Unimodal                                                                                                    | Función Multimodal                                                                                          |
 | ---------------------------------------------------------------------------------------------------------------------| -------------------------------------------------------------------------------------------------------------|
 | ![Scalability Hypersphere](results/preliminary-results/benchmark-functions/hypersphere/scalability-hypersphere.png) | ![Scalability Schwefel](results/preliminary-results/benchmark-functions/schewefel/scalability-schwefel.png) |
 
 
 #### Dimensiones extremas
 
-![Scalability Hypersphere](results/preliminary-results/benchmark-functions/hypersphere/dim_1000000/Convergence_Hypersphere_D1000000_run1.png)
+| Hypersphere                                                                                                                                 | Ackley                                                                                                                       |
+| ---------------------------------------------------------------------------------------------------------------------------------------------| ------------------------------------------------------------------------------------------------------------------------------|
+| ![Scalability Hypersphere](results/preliminary-results/benchmark-functions/hypersphere/dim_100000/Convergence_Hypersphere_D100000_run1.png) | ![Scalability Ackley](results/preliminary-results/benchmark-functions/ackley/dim_100000/Convergence_Ackley_D100000_run1.png) |
 
 #### Importancia de la medida relativa de progreso
 
