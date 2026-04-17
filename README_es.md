@@ -46,13 +46,15 @@ Este enfoque no busca resolver el problema original de forma directa, sino tradu
 
 #### Dimensiones extremas
 
-| Hypersphere                                                                                                                                 | Ackley                                                                                                                       |
+| Hypersphere                                                                                                                                 | Ackley Function                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------------| ------------------------------------------------------------------------------------------------------------------------------|
 | ![Scalability Hypersphere](results/preliminary-results/benchmark-functions/hypersphere/dim_100000/Convergence_Hypersphere_D100000_run1.png) | ![Scalability Ackley](results/preliminary-results/benchmark-functions/ackley/dim_100000/Convergence_Ackley_D100000_run1.png) |
 
 #### Importancia de la medida relativa de progreso
 
-![Scalability Hypersphere](results/preliminary-results/opfunu/cec2017/F18-Hybrid-Function-9/dim_100/convergence_analysis.png)
+| F18: Hybrid Function 9                                                                                                        | F19: Hybrid Function 10                                                                                                        |
+| -------------------------------------------------------------------------------------------------------------------------------| --------------------------------------------------------------------------------------------------------------------------------|
+| ![Scalability Hypersphere](results/preliminary-results/opfunu/cec2017/F18-Hybrid-Function-9/dim_100/convergence_analysis.png) | ![Scalability Hypersphere](results/preliminary-results/opfunu/cec2017/F19-Hybrid-Function-10/dim_100/convergence_analysis.png) |
 
 
 
