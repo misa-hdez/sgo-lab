@@ -39,7 +39,7 @@ Este enfoque no busca resolver el problema original de forma directa, sino tradu
 
 #### Escalabilidad con presupuesto fijo de evaluaciones
 
-| Imagen 1                                                                                                            | Imagen 2                                                                                                    |
+| Función Unimodal                                                                                                            | Función Multimodal                                                                                                    |
 | ---------------------------------------------------------------------------------------------------------------------| -------------------------------------------------------------------------------------------------------------|
 | ![Scalability Hypersphere](results/preliminary-results/benchmark-functions/hypersphere/scalability-hypersphere.png) | ![Scalability Schwefel](results/preliminary-results/benchmark-functions/schewefel/scalability-schwefel.png) |
 
