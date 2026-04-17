@@ -27,7 +27,13 @@ While most current approaches focus on learning or approximating codomain inform
 
 ## Preview
 
-Text
+The SGOLab reference system is designed to enable navigation in *black-box* environments through a scale-independent internal metric. Its construction is based on the anchoring of reference points and the definition of a base unit of distance, which allows for:
+
+- Delimiting search regions
+- Structuring displacements
+- Monitoring progress through relative measures
+
+This approach does not seek to solve the original problem directly, but rather to translate it into an environment where the analysis becomes analytically tractable and enables the use of more powerful mathematical tools.
 
 ## Dependencies
 
