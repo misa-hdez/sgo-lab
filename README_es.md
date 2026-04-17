@@ -37,6 +37,9 @@ Este enfoque no busca resolver el problema original de forma directa, sino tradu
 
 ### Validación experimental
 
+| Imagen 1                                                                                                            | Imagen 2                                                                                                    |
+| ---------------------------------------------------------------------------------------------------------------------| -------------------------------------------------------------------------------------------------------------|
+| ![Scalability Hypersphere](results/preliminary-results/benchmark-functions/hypersphere/scalability-hypersphere.png) | ![Scalability Schwefel](results/preliminary-results/benchmark-functions/schewefel/scalability-schwefel.png) |
 
 
 ## Dependencias
