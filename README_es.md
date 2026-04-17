@@ -27,10 +27,17 @@ A lo largo de la historia, tanto en matemáticas como en física, problemas comp
 Mientras que gran parte de los enfoques actuales se centran en aprender o aproximar la información del codominio para modelar el comportamiento de la función, SGOLab parte de una premisa distinta: el dominio no es un espacio inerte, sino una fuente potencial de estructura. En este contexto, la investigación no se centra en la reconstrucción del paisaje de la función, sino en la navegación inteligente del espacio mediante sistemas de referencia geométricos inducidos por las relaciones entre las muestras.
 
 ## Avances
+El sistema de referencia de SGOLab está diseñado para permitir la navegación en entornos *black-box* mediante una métrica interna independiente de la escala del problema. Su construcción se basa en la fijación de puntos de apoyo y la definición de una unidad base de distancia, lo que permite:
 
-Actualmente, el rendimiento del algoritmo de optimización central está siendo analizado y sometido a pruebas utilizando la suite de *benchmarking* CEC 2017 y otras funciones ampliamente conocidas.
+- Delimitar regiones de búsqueda
+- Estructurar desplazamientos
+- Monitorear el progreso mediante medidas relativas
 
-Puedes acceder a una muestra de los datos preliminares de estas evaluaciones y otros avances métricos en el siguiente enlace: [**link**]
+Este enfoque no busca resolver el problema original de forma directa, sino traducirlo a un entorno donde el análisis resulte analíticamente tratable y permita el uso de herramientas matemáticas más potentes.
+
+### Validación experimental
+
+
 
 ## Dependencias
 
