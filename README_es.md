@@ -53,7 +53,7 @@ Se presentan las curvas de convergencia para las funciones Hipersfera y Schwefel
 - Función multimodal: Schwefel
 
 <p align="left">
-  <img src="results/preliminary-results/benchmark-functions/schewefel/scalability-schwefel.png" width="70%" style="height:auto;" alt="Scalability Schwefel"/>
+  <img src="results/preliminary-results/benchmark-functions/schwefel/scalability-schwefel.png" width="70%" style="height:auto;" alt="Scalability Schwefel"/>
 </p>
 
 
