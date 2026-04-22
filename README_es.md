@@ -59,7 +59,7 @@ Se presentan las curvas de convergencia para las funciones Hipersfera y Schwefel
 
 #### Dimensiones extremas
 
-Se evalúa el rendimiento del algoritmo en escenarios de Ultra-Large Scale Global Optimization (ULSGO), utilizando las funciones Hipersfera y Ackley en 100,000 dimensiones. Bajo un presupuesto de $10^6$ evaluaciones, se grafica el error absoluto respecto al óptimo conocido para demostrar la robustez del modelo; estas pruebas representan un hito poco frecuente en la literatura técnica actual. Asimismo, se introducen visualmente las medidas relativas de progreso, cuya fundamentación técnica se detalla en la sección posterior.
+Se evalúa el rendimiento del algoritmo en escenarios de Ultra-Large Scale Global Optimization (ULSGO), utilizando las funciones Hipersfera y Ackley en 100,000 dimensiones. Bajo un presupuesto de 1,000,000 de evaluaciones, se grafica el error absoluto respecto al óptimo conocido para demostrar la robustez del modelo; estas pruebas representan un hito poco frecuente en la literatura técnica actual. Asimismo, se introducen visualmente las medidas relativas de progreso, cuya fundamentación técnica se detalla en la sección posterior.
 
 - Función de Hiperesfera en 100,000 dimensiones
 
