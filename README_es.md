@@ -59,19 +59,28 @@ Se presentan las curvas de convergencia para las funciones Hiperesfera y Schwefe
 
 #### Dimensiones extremas
 
-Se evalúa el rendimiento del algoritmo en escenarios de Ultra-Large Scale Global Optimization (ULSGO), utilizando las funciones Hipersfera y Ackley en 100,000 dimensiones. Bajo un presupuesto de 1,000,000 de evaluaciones, se grafica el error absoluto respecto al óptimo conocido para demostrar la robustez del modelo; estas pruebas representan un hito poco frecuente en la literatura técnica actual. Asimismo, se introducen visualmente las medidas relativas de progreso, cuya fundamentación técnica se detalla en la sección posterior.
+Se evalúa el rendimiento del algoritmo en escenarios de Ultra-Large Scale Global Optimization (ULSGO), utilizando las funciones Hiperesfera y Ackley en 100,000 dimensiones. Bajo un presupuesto de 1,000,000 de evaluaciones, se grafica el error absoluto respecto al óptimo conocido para demostrar la robustez del modelo; estas pruebas representan un hito poco frecuente en la literatura técnica actual. Asimismo, se introducen visualmente las medidas relativas de progreso, cuya fundamentación técnica se detalla en la sección posterior.
 
-- Función de Hiperesfera en 100,000 dimensiones
+- Función Ackley (100,000 dimensiones)
+
+<p align="left">
+  <img src="results/preliminary-results/benchmark-functions/ackley/dim_100000/Convergence_Ackley_D100000_run1.png" width="70%" style="height:auto;" alt="Ackley D100000"/>
+</p>
+
+
+- Función Hiperesfera (100,000 dimensiones)
 
 <p align="left">
   <img src="results/preliminary-results/benchmark-functions/hypersphere/dim_100000/Convergence_Hypersphere_D100000_run1.png" width="70%" style="height:auto;" alt="Hypersphere D100000"/>
 </p>
 
-- Función de Ackley en 100,000 dimensiones
+
+- Función Hiperesfera (1,000,000 de dimensiones)
 
 <p align="left">
-  <img src="results/preliminary-results/benchmark-functions/ackley/dim_100000/Convergence_Ackley_D100000_run1.png" width="70%" style="height:auto;" alt="Ackley D100000"/>
+  <img src="results/preliminary-results/benchmark-functions/hypersphere/dim_1000000/Convergence_Hypersphere_D1000000_run1.png" width="70%" style="height:auto;" alt="Hypersphere D1000000"/>
 </p>
+
 
 
 #### Importancia de la medida relativa de progreso
