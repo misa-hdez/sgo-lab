@@ -42,7 +42,7 @@ Los siguientes resultados muestran el comportamiento de una solución única ope
 
 #### Escalabilidad con presupuesto fijo de evaluaciones
 
-Se presentan las curvas de convergencia para las funciones Hipersfera y Schwefel bajo un presupuesto estricto de 50,000 evaluaciones. El análisis se centra en el porcentaje de mejora obtenido mediante un barrido dimensional; el interés principal radica en la estabilidad del patrón de convergencia, el cual mantiene un comportamiento análogo a medida que aumenta la escala del problema.
+Se presentan las curvas de convergencia para las funciones Hiperesfera y Schwefel bajo un presupuesto estricto de 50,000 evaluaciones. El análisis se centra en el porcentaje de mejora obtenido mediante un barrido dimensional; el interés principal radica en la estabilidad del patrón de convergencia, el cual mantiene un comportamiento análogo a medida que aumenta la escala del problema.
 
 - Función unimodal: Hiperesfera
 
