@@ -43,13 +43,13 @@ Las siguientes pruebas realizadas solo muestran el comportamiento puramente expl
 
 - Función unimodal: Hipersfera
 
-<p align="center">
+<p align="left">
   <img src="results/preliminary-results/benchmark-functions/hypersphere/scalability-hypersphere.png" width="70%" style="height:auto;" alt="Scalability Hypersphere"/>
 </p>
 
 - Función multimodal: Schwefel
 
-<p align="center">
+<p align="left">
   <img src="results/preliminary-results/benchmark-functions/schewefel/scalability-schwefel.png" width="70%" style="height:auto;" alt="Scalability Schwefel"/>
 </p>
 
@@ -65,7 +65,7 @@ Las siguientes pruebas realizadas solo muestran el comportamiento puramente expl
 
 - Función de Ackley en 100,000 dimensiones
 
-<p align="center">
+<p align="left">
   <img src="results/preliminary-results/benchmark-functions/ackley/dim_100000/Convergence_Ackley_D100000_run1.png" width="70%" style="height:auto;" alt="Ackley D100000"/>
 </p>
 
@@ -74,13 +74,13 @@ Las siguientes pruebas realizadas solo muestran el comportamiento puramente expl
 
 - F18: Hybrid Function 9
 
-<p align="center">
+<p align="left">
   <img src="results/preliminary-results/opfunu/cec2017/F18-Hybrid-Function-9/dim_100/convergence_analysis.png" width="70%" style="height:auto;" alt="F18 convergence"/>
 </p>
 
 - Hybrid Function 10
 
-<p align="center">
+<p align="left">
   <img src="results/preliminary-results/opfunu/cec2017/F19-Hybrid-Function-10/dim_100/convergence_analysis.png" width="70%" style="height:auto;" alt="F19 convergence"/>
 </p>
 
