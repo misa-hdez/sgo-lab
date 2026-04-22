@@ -37,58 +37,52 @@ Este enfoque no busca resolver el problema original de forma directa, sino tradu
 
 ### Validación experimental
 
+Las siguientes pruebas realizadas solo muestran el comportamiento puramente exploratorio de un algoritmo prototipo desarrollado usando una solución: la mecánica de exploración es la misma en el inicio del proceso de optimización y en el final.
+
 #### Escalabilidad con presupuesto fijo de evaluaciones
 
-<table>
-  <tr>
-    <th>Función Unimodal</th>
-    <th>Función Multimodal</th>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="results/preliminary-results/benchmark-functions/hypersphere/scalability-hypersphere.png" height="250" style="width:auto;" alt="Scalability Hypersphere"/>
-    </td>
-    <td align="center">
-      <img src="results/preliminary-results/benchmark-functions/schewefel/scalability-schwefel.png" height="250" style="width:auto;" alt="Scalability Schwefel"/>
-    </td>
-  </tr>
-</table>
+- Función unimodal: Hipersfera
+
+<p align="center">
+  <img src="results/preliminary-results/benchmark-functions/hypersphere/scalability-hypersphere.png" width="70%" style="height:auto;" alt="Scalability Hypersphere"/>
+</p>
+
+- Función multimodal: Schwefel
+
+<p align="center">
+  <img src="results/preliminary-results/benchmark-functions/schewefel/scalability-schwefel.png" width="70%" style="height:auto;" alt="Scalability Schwefel"/>
+</p>
 
 
 
 #### Dimensiones extremas
 
-<table>
-  <tr>
-    <th>Hypersphere</th>
-    <th>Ackley Function</th>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="results/preliminary-results/benchmark-functions/hypersphere/dim_100000/Convergence_Hypersphere_D100000_run1.png" height="250" style="width:auto;" alt="Hypersphere D100000"/>
-    </td>
-    <td align="center">
-      <img src="results/preliminary-results/benchmark-functions/ackley/dim_100000/Convergence_Ackley_D100000_run1.png" height="250" style="width:auto;" alt="Ackley D100000"/>
-    </td>
-  </tr>
-</table>
-                                    |
+- Función de Hiperesfera en 100,000 dimensiones
+
+<p align="center">
+  <img src="results/preliminary-results/benchmark-functions/hypersphere/dim_100000/Convergence_Hypersphere_D100000_run1.png" width="70%" style="height:auto;" alt="Hypersphere D100000"/>
+</p>
+
+- Función de Ackley en 100,000 dimensiones
+
+<p align="center">
+  <img src="results/preliminary-results/benchmark-functions/ackley/dim_100000/Convergence_Ackley_D100000_run1.png" width="70%" style="height:auto;" alt="Ackley D100000"/>
+</p>
+
 
 #### Importancia de la medida relativa de progreso
 
-<table>
-  <tr>
-    <th>F18: Hybrid Function 9</th>
-    <th>F19: Hybrid Function 10</th>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="results/preliminary-results/opfunu/cec2017/F18-Hybrid-Function-9/dim_100/convergence_analysis.png" height="250" style="width:auto;" alt="F18 convergence"/>
-    </td>
-    <td align="center">
-      <img src="results/preliminary-results/opfunu/cec2017/F19-Hybrid-Function-10/dim_100/convergence_analysis.png" height="250" style="width:auto;" alt="F19 convergence"/>
-    </td>  </tr></table>
+- F18: Hybrid Function 9
 
+<p align="center">
+  <img src="results/preliminary-results/opfunu/cec2017/F18-Hybrid-Function-9/dim_100/convergence_analysis.png" width="70%" style="height:auto;" alt="F18 convergence"/>
+</p>
+
+- Hybrid Function 10
+
+<p align="center">
+  <img src="results/preliminary-results/opfunu/cec2017/F19-Hybrid-Function-10/dim_100/convergence_analysis.png" width="70%" style="height:auto;" alt="F19 convergence"/>
+</p>
 
 ## Dependencias
 
