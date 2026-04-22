@@ -37,7 +37,7 @@ Este enfoque no busca resolver el problema original de forma directa, sino tradu
 
 ### Validación experimental
 
-Los siguientes resultados muestran el comportamiento de una solución única operando en un entorno puramente exploratorio, demostrando que la navegación basada en la geometría del dominio permite una convergencia estable incluso sin una reconstrucción explícita del paisaje de la función.
+Los siguientes resultados muestran el comportamiento de un algoritmo de trayectoria basado en una solución única operando en un entorno puramente exploratorio, demostrando que la navegación basada en la geometría del dominio permite una convergencia estable incluso sin una reconstrucción explícita del paisaje de la función.
 
 
 #### Escalabilidad con presupuesto fijo de evaluaciones
