@@ -37,11 +37,14 @@ Este enfoque no busca resolver el problema original de forma directa, sino tradu
 
 ### Validación experimental
 
-Las siguientes pruebas realizadas solo muestran el comportamiento puramente exploratorio de un algoritmo prototipo desarrollado usando una solución: la mecánica de exploración es la misma en el inicio del proceso de optimización y en el final.
+Los siguientes resultados muestran el comportamiento de una solución única operando en un entorno puramente exploratorio, demostrando que la navegación basada en la geometría del dominio permite una convergencia estable incluso sin una reconstrucción explícita del paisaje de la función.
+
 
 #### Escalabilidad con presupuesto fijo de evaluaciones
 
-- Función unimodal: Hipersfera
+Se presentan las curvas de convergencia para las funciones Hipersfera y Schwefel bajo un presupuesto estricto de 50,000 evaluaciones. El análisis se centra en el porcentaje de mejora obtenido mediante un barrido dimensional; el interés principal radica en la estabilidad del patrón de convergencia, el cual mantiene un comportamiento análogo a medida que aumenta la escala del problema.
+
+- Función unimodal: Hiperesfera
 
 <p align="left">
   <img src="results/preliminary-results/benchmark-functions/hypersphere/scalability-hypersphere.png" width="70%" style="height:auto;" alt="Scalability Hypersphere"/>
@@ -54,8 +57,9 @@ Las siguientes pruebas realizadas solo muestran el comportamiento puramente expl
 </p>
 
 
-
 #### Dimensiones extremas
+
+Se evalúa el rendimiento del algoritmo en escenarios de Ultra-Large Scale Global Optimization (ULSGO), utilizando las funciones Hipersfera y Ackley en 100,000 dimensiones. Bajo un presupuesto de $10^6$ evaluaciones, se grafica el error absoluto respecto al óptimo conocido para demostrar la robustez del modelo estas pruebas representan un hito poco frecuente en la literatura técnica actual. Asimismo, se introducen visualmente las medidas relativas de progreso, cuya fundamentación técnica se detalla en la sección posterior.
 
 - Función de Hiperesfera en 100,000 dimensiones
 
@@ -71,6 +75,10 @@ Las siguientes pruebas realizadas solo muestran el comportamiento puramente expl
 
 
 #### Importancia de la medida relativa de progreso
+
+Esta sección introduce métricas de navegación basadas en distancias relativas ($L_1$ Ratio) calculadas desde los puntos de apoyo hacia la mejor solución encontrada. Al analizar las funciones híbridas de la suite CEC 2017 (F18 y F19), se observa un contraste fundamental: mientras las curvas de error absoluto sugieren un estancamiento prematuro , las medidas relativas revelan una actividad intensa y una alta presencia de ruido durante el proceso.
+
+A diferencia de las curvas obtenidas en dimensiones extremas (que presentan una transición más suave), aquí la oscilación es constante. Este fenómeno valida la naturaleza puramente exploratoria del prototipo actual; la fase de explotación, actualmente en desarrollo, tendrá como objetivo principal disminuir este ruido para estabilizar la convergencia en paisajes de alta complejidad topográfica.
 
 - F18: Hybrid Function 9
 
