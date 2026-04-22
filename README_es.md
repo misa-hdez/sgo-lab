@@ -59,7 +59,7 @@ Las siguientes pruebas realizadas solo muestran el comportamiento puramente expl
 
 - Función de Hiperesfera en 100,000 dimensiones
 
-<p align="center">
+<p align="left">
   <img src="results/preliminary-results/benchmark-functions/hypersphere/dim_100000/Convergence_Hypersphere_D100000_run1.png" width="70%" style="height:auto;" alt="Hypersphere D100000"/>
 </p>
 
