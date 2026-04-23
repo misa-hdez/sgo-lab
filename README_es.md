@@ -10,8 +10,6 @@ Bajo este enfoque, en lugar de modelar explícitamente la función, SGOLab explo
 
 ## Motivación
 
-> *"Dadme un punto de apoyo y moveré al mundo"* — Arquímedes
-
 En términos generales, el Teorema No Free Lunch (NFL) establece que ningún algoritmo de optimización es universalmente superior a los demás y que, en ausencia de supuestos sobre la estructura del problema, todos presentan el mismo rendimiento promedio. La aparente superioridad de un método emerge únicamente cuando este logra explotar regularidades específicas de la función objetivo.
 
 En el contexto de la optimización *black-box*, dichas regularidades no son accesibles *a priori* y deben inferirse a partir de los puntos evaluados. Este proceso se vuelve especialmente costoso en escenarios de alta dimensionalidad o cuando cada evaluación implica un gasto computacional significativo, limitando la eficiencia de los enfoques tradicionales.
@@ -25,6 +23,9 @@ A lo largo de la historia, tanto en matemáticas como en física, problemas comp
 Mientras que gran parte de los enfoques actuales se centran en aprender o aproximar la información del codominio para modelar el comportamiento de la función, SGOLab parte de una premisa distinta: el dominio no es un espacio inerte, sino una fuente potencial de estructura. En este contexto, la investigación no se centra en la reconstrucción del paisaje de la función, sino en la navegación inteligente del espacio mediante sistemas de referencia geométricos inducidos por las relaciones entre las muestras.
 
 ## Avances
+
+> *"Dadme un punto de apoyo y moveré al mundo"* — Arquímedes
+
 El sistema de referencia de SGOLab está diseñado para permitir la navegación en entornos *black-box* mediante una métrica interna independiente de la escala del problema. Su construcción se basa en la fijación de puntos de apoyo y la definición de una unidad base de distancia, lo que permite:
 
 - Delimitar regiones de búsqueda
