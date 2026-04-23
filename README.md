@@ -9,10 +9,6 @@ Under this approach, instead of explicitly modeling the function, SGOLab leverag
 
 ## Motivation
 
-> *"Give me a lever and a place to stand and I will move the earth"*
->
-> Archimedes
-
 In general terms, the No Free Lunch (NFL) Theorem states that no optimization algorithm is universally superior to others and that, in the absence of assumptions regarding the problem's structure, all algorithms exhibit the same average performance. The apparent superiority of a method emerges only when it successfully exploits specific regularities within the objective function's structure.
 
 In the context of *black-box* optimization, such regularities are not accessible a priori and must be inferred from evaluated points. This process becomes prohibitively expensive in high-dimensional scenarios or when each evaluation involves significant computational cost, severely limiting the efficiency of traditional approaches.
@@ -26,6 +22,8 @@ Throughout history, in both mathematics and physics, complex problems have been 
 While most current approaches focus on learning or approximating codomain information to model functional behavior, SGOLab starts from a different premise: the domain is not an inert space, but a potential source of structure. In this context, the research does not focus on landscape reconstruction, but on smart navigation of the space through geometric reference systems induced by the relationships between samples.
 
 ## Preview
+
+> *"Give me a lever and a place to stand and I will move the earth"* — Archimedes
 
 The SGOLab reference system is designed to enable navigation in *black-box* environments through a scale-independent internal metric. Its construction is based on the anchoring of reference points and the definition of a base unit of distance, which allows for:
 
