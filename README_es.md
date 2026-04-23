@@ -10,9 +10,7 @@ Bajo este enfoque, en lugar de modelar explícitamente la función, SGOLab explo
 
 ## Motivación
 
-> "Dadme un punto de apoyo y moveré al mundo"
->
-> — Arquímedes
+> *"Dadme un punto de apoyo y moveré al mundo"* — Arquímedes
 
 En términos generales, el Teorema No Free Lunch (NFL) establece que ningún algoritmo de optimización es universalmente superior a los demás y que, en ausencia de supuestos sobre la estructura del problema, todos presentan el mismo rendimiento promedio. La aparente superioridad de un método emerge únicamente cuando este logra explotar regularidades específicas de la función objetivo.
 
@@ -37,7 +35,7 @@ Este enfoque no busca resolver el problema original de forma directa, sino tradu
 
 ### Validación experimental
 
-Los siguientes resultados muestran el comportamiento de un algoritmo de trayectoria basado en una solución única operando en un entorno puramente exploratorio, demostrando que la navegación basada en la geometría del dominio permite una convergencia estable incluso sin una reconstrucción explícita del paisaje de la función.
+Los siguientes resultados muestran el comportamiento de un algoritmo basado en una solución única operando en un entorno puramente exploratorio, demostrando que la navegación basada en la geometría del dominio permite una convergencia estable incluso sin una reconstrucción explícita del paisaje de la función.
 
 
 #### Escalabilidad con presupuesto fijo de evaluaciones
