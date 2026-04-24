@@ -1,5 +1,9 @@
 SGOLab
 =========================
+
+![Research-In-Progress](https://img.shields.io/badge/Status-Research--In--Progress-orange)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+
 *Si lo deseas, puedes consultar la versión de este documento en inglés:* [English version](README.md)
 
 SGOLab es un proyecto personal del programa de investigación *Towards Scalable Geometric Optimization,* que explora una reinterpretación geométrica de la optimización *black-box.* 
