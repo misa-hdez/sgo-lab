@@ -1,6 +1,6 @@
 SGOLab
 =========================
-*Si lo deseas, puedes consultar la versión de este documento en inglés: [English version](https://github.com/misa-hdez/sgo-lab).*
+*Si lo deseas, puedes consultar la versión de este documento en inglés: [English version](README.md)*
 
 SGOLab es un proyecto personal del programa de investigación *Towards Scalable Geometric Optimization,* que explora una reinterpretación geométrica de la optimización *black-box.* 
 
