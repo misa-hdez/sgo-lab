@@ -24,7 +24,7 @@ Bajo estas condiciones, surge una pregunta fundamental:
 
 A lo largo de la historia, tanto en matemáticas como en física, problemas complejos han sido abordados mediante su representación en espacios alternativos, donde ciertas estructuras se vuelven más accesibles, como ocurre con las transformadas de Fourier y Laplace.
 
-Mientras que gran parte de los enfoques actuales se centran en aprender o aproximar la información del codominio para modelar el comportamiento de la función, SGOLab parte de una premisa distinta: *el dominio no es un espacio inerte, sino una fuente potencial de estructura*. En este contexto, la investigación no se centra en la reconstrucción del paisaje de la función, sino en la navegación inteligente del espacio mediante sistemas de referencia geométricos inducidos por las relaciones entre las muestras.
+Mientras que gran parte de los enfoques actuales se centran en aprender o aproximar la información del codominio para modelar el comportamiento de la función, SGOLab parte de una premisa distinta: *el dominio no es un espacio inerte, sino una fuente potencial de estructura.* En este contexto, la investigación no se centra en la reconstrucción del paisaje de la función, sino en la navegación inteligente del espacio mediante sistemas de referencia geométricos inducidos por las relaciones entre las muestras.
 
 ## Avances
 
@@ -46,13 +46,13 @@ Los siguientes resultados muestran el comportamiento de un algoritmo basado en u
 
 Se presentan las curvas de convergencia para las funciones Hiperesfera y Schwefel bajo un presupuesto estricto de 50,000 evaluaciones. El análisis se centra en el porcentaje de mejora obtenido mediante un barrido dimensional; el interés principal radica en la estabilidad del patrón de convergencia, el cual mantiene un comportamiento análogo a medida que aumenta la escala del problema.
 
-- Función unimodal: Hiperesfera
+- **Función unimodal: Hiperesfera**
 
 <p align="left">
   <img src="results/preliminary-results/benchmark-functions/hypersphere/scalability-hypersphere.png" width="70%" style="height:auto;" alt="Scalability Hypersphere"/>
 </p>
 
-- Función multimodal: Schwefel
+- **Función multimodal: Schwefel**
 
 <p align="left">
   <img src="results/preliminary-results/benchmark-functions/schwefel/scalability-schwefel.png" width="70%" style="height:auto;" alt="Scalability Schwefel"/>
@@ -60,23 +60,24 @@ Se presentan las curvas de convergencia para las funciones Hiperesfera y Schwefe
 
 #### Dimensiones extremas
 
-Se evalúa el rendimiento del algoritmo en escenarios de *Large Scale Global Optimization* (LSGO), utilizando las funciones Hiperesfera y Ackley en 100,000 dimensiones. Bajo un presupuesto de 1,000,000 de evaluaciones, se grafica el error absoluto respecto al óptimo conocido; para demostrar la robustez del modelo; la ejecución de estas pruebas en tales escalas permite validar la robustez del modelo en escenarios de complejidad extrema, poco documentados en la literatura técnica actual.
+Se evalúa el rendimiento del algoritmo en escenarios de *Large Scale Global Optimization* (LSGO), utilizando las funciones Hiperesfera y Ackley en 100,000 dimensiones. Bajo un presupuesto de 1,000,000 de evaluaciones, se grafica el error absoluto respecto al óptimo conocido. 
+
+La ejecución de estas pruebas en tales escalas permite validar la robustez del modelo en escenarios de complejidad extrema, poco documentados en la literatura técnica actual.
 Asimismo, se introducen visualmente las medidas relativas de progreso, cuya fundamentación técnica se detalla en la sección posterior.
 
-- Función Ackley (100,000 dimensiones)
+- **Función Ackley (100,000 dimensiones)**
 
 <p align="left">
   <img src="results/preliminary-results/benchmark-functions/ackley/dim_100000/Convergence_Ackley_D100000_run1.png" width="70%" style="height:auto;" alt="Ackley D100000"/>
 </p>
 
-- Función Hiperesfera (100,000 dimensiones)
+- **Función Hiperesfera (100,000 dimensiones)**
 
 <p align="left">
   <img src="results/preliminary-results/benchmark-functions/hypersphere/dim_100000/Convergence_Hypersphere_D100000_run1.png" width="70%" style="height:auto;" alt="Hypersphere D100000"/>
 </p>
 
-
-- Función Hiperesfera (1,000,000 de dimensiones)
+- **Función Hiperesfera (1,000,000 de dimensiones)**
 
 <p align="left">
   <img src="results/preliminary-results/benchmark-functions/hypersphere/dim_1000000/Convergence_Hypersphere_D1000000_run1.png" width="70%" style="height:auto;" alt="Hypersphere D1000000"/>
@@ -90,13 +91,13 @@ Esta sección introduce métricas de navegación basadas en distancias relativas
 
 A diferencia de las curvas obtenidas en dimensiones extremas (que presentan una transición más suave), aquí la oscilación es constante. Este fenómeno valida la naturaleza puramente exploratoria del prototipo actual; la fase de explotación, actualmente en desarrollo, tendrá como objetivo principal disminuir este ruido para estabilizar la convergencia en paisajes de alta complejidad topográfica.
 
-- Hybrid Function 9
+- **Hybrid Function 9**
 
 <p align="left">
   <img src="results/preliminary-results/opfunu/cec2017/F18-Hybrid-Function-9/dim_100/convergence_analysis.png" width="70%" style="height:auto;" alt="F18 convergence"/>
 </p>
 
-- Hybrid Function 10
+- **Hybrid Function 10**
 
 <p align="left">
   <img src="results/preliminary-results/opfunu/cec2017/F19-Hybrid-Function-10/dim_100/convergence_analysis.png" width="70%" style="height:auto;" alt="F19 convergence"/>
