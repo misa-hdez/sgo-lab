@@ -1,6 +1,6 @@
 SGOLab
 =========================
-*Si lo deseas, puedes consultar la versión de este documento en inglés: [English version](README.md)*
+*Si lo deseas, puedes consultar la versión de este documento en inglés:* [English version](README.md)
 
 SGOLab es un proyecto personal del programa de investigación *Towards Scalable Geometric Optimization,* que explora una reinterpretación geométrica de la optimización *black-box.* 
 
@@ -82,7 +82,7 @@ Asimismo, se introducen visualmente las medidas relativas de progreso, cuya fund
   <img src="results/preliminary-results/benchmark-functions/hypersphere/dim_1000000/Convergence_Hypersphere_D1000000_run1.png" width="70%" style="height:auto;" alt="Hypersphere D1000000"/>
 </p>
 
-*Asimismo, se pueden consultar otros experimentos en el siguiente enlace: [Benchmark Functions](results/preliminary-results/benchmark-functions).*
+*Asimismo, se pueden consultar otros experimentos en el siguiente enlace:* [Benchmark Functions](results/preliminary-results/benchmark-functions).
 
 #### Importancia de la medida relativa de progreso
 
@@ -102,7 +102,7 @@ A diferencia de las curvas obtenidas en dimensiones extremas (que presentan una 
   <img src="results/preliminary-results/opfunu/cec2017/F19-Hybrid-Function-10/dim_100/convergence_analysis.png" width="70%" style="height:auto;" alt="F19 convergence"/>
 </p>
 
-*Además, se pueden consultar resultados adicionales utilizando la suite de benchmarks **CEC 2017** en el siguiente enlace: [CEC 2017 - Opfunu](results/preliminary-results/opfunu/cec2017).*
+*Además, se pueden consultar resultados adicionales utilizando la suite de benchmarks **CEC 2017** en el siguiente enlace:* [CEC 2017 - Opfunu](results/preliminary-results/opfunu/cec2017).
 
 ## Dependencias
 
