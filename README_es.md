@@ -12,7 +12,6 @@ La hipótesis central del proyecto plantea que el proceso de optimización puede
 
 Bajo este enfoque, en lugar de modelar explícitamente la función, SGOLab explota la geometría del *dominio acotado* mediante la construcción de un sistema de referencia relativo que guía dinámicamente el proceso de búsqueda.
 
-
 ## Motivación
 
 En términos generales, el Teorema No Free Lunch (NFL) establece que ningún algoritmo de optimización es universalmente superior a los demás y que, en ausencia de supuestos sobre la estructura del problema, todos presentan el mismo rendimiento promedio. La aparente superioridad de un método emerge únicamente cuando este logra explotar regularidades específicas de la función objetivo.
@@ -43,7 +42,6 @@ Este enfoque no busca resolver el problema original de forma directa, sino tradu
 
 Los siguientes resultados muestran el comportamiento de un algoritmo basado en una solución única operando en un entorno puramente exploratorio, demostrando que la navegación basada en la geometría del dominio permite una convergencia estable incluso sin una reconstrucción explícita del paisaje de la función.
 
-
 #### Escalabilidad con presupuesto fijo de evaluaciones
 
 Se presentan las curvas de convergencia para las funciones Hiperesfera y Schwefel bajo un presupuesto estricto de 50,000 evaluaciones. El análisis se centra en el porcentaje de mejora obtenido mediante un barrido dimensional; el interés principal radica en la estabilidad del patrón de convergencia, el cual mantiene un comportamiento análogo a medida que aumenta la escala del problema.
@@ -60,7 +58,6 @@ Se presentan las curvas de convergencia para las funciones Hiperesfera y Schwefe
   <img src="results/preliminary-results/benchmark-functions/schwefel/scalability-schwefel.png" width="70%" style="height:auto;" alt="Scalability Schwefel"/>
 </p>
 
-
 #### Dimensiones extremas
 
 Se evalúa el rendimiento del algoritmo en escenarios de *Large Scale Global Optimization* (LSGO), utilizando las funciones Hiperesfera y Ackley en 100,000 dimensiones. Bajo un presupuesto de 1,000,000 de evaluaciones, se grafica el error absoluto respecto al óptimo conocido; para demostrar la robustez del modelo; la ejecución de estas pruebas en tales escalas permite validar la robustez del modelo en escenarios de complejidad extrema, poco documentados en la literatura técnica actual.
@@ -71,7 +68,6 @@ Asimismo, se introducen visualmente las medidas relativas de progreso, cuya fund
 <p align="left">
   <img src="results/preliminary-results/benchmark-functions/ackley/dim_100000/Convergence_Ackley_D100000_run1.png" width="70%" style="height:auto;" alt="Ackley D100000"/>
 </p>
-
 
 - Función Hiperesfera (100,000 dimensiones)
 
@@ -94,7 +90,7 @@ Esta sección introduce métricas de navegación basadas en distancias relativas
 
 A diferencia de las curvas obtenidas en dimensiones extremas (que presentan una transición más suave), aquí la oscilación es constante. Este fenómeno valida la naturaleza puramente exploratoria del prototipo actual; la fase de explotación, actualmente en desarrollo, tendrá como objetivo principal disminuir este ruido para estabilizar la convergencia en paisajes de alta complejidad topográfica.
 
-- F18: Hybrid Function 9
+- Hybrid Function 9
 
 <p align="left">
   <img src="results/preliminary-results/opfunu/cec2017/F18-Hybrid-Function-9/dim_100/convergence_analysis.png" width="70%" style="height:auto;" alt="F18 convergence"/>
