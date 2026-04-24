@@ -118,6 +118,7 @@ El desarrollo, las pruebas y ejecución de los experimentos de este proyecto se 
 Debido a que el modelo matemático se encuentra en proceso de documentación formal para su publicación en *whitepapers* y revistas académicas, el acceso al código de fuente está restringido temporalmente.
 
 Si eres investigador, deseas conocer más sobre mi trabajo o buscas una colaboración técnica, puedes contactar a través del correo:
+
 - **Contacto:** [misa.hdez97@proton.me](mailto:misa.hdez97@proton.me)
 
 
