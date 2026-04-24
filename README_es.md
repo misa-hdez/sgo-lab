@@ -1,5 +1,6 @@
 SGOLab
 =========================
+*Si lo deseas, puedes consultar la versión de este documento en inglés: [English version](https://github.com/misa-hdez/sgo-lab).*
 
 SGOLab es un proyecto personal del programa de investigación *Towards Scalable Geometric Optimization,* que explora una reinterpretación geométrica de la optimización *black-box.* 
 
@@ -26,7 +27,7 @@ Mientras que gran parte de los enfoques actuales se centran en aprender o aproxi
 
 > *"Dadme un punto de apoyo y moveré al mundo"* — Arquímedes
 
-El sistema de referencia de SGOLab está diseñado para permitir la navegación en entornos *black-box* mediante una métrica interna independiente de la escala del problema. Su construcción se basa en la fijación de puntos de apoyo y la definición de una unidad base de distancia, lo que permite:
+El sistema de referencia de SGOLab está diseñado para permitir la navegación en entornos *black-box* mediante una métrica interna independiente de la escala del problema. Su construcción se basa en la fijación de puntos de referencia y la definición de una unidad base de distancia, lo que permite:
 
 - Delimitar regiones de búsqueda
 - Estructurar desplazamientos
@@ -34,7 +35,7 @@ El sistema de referencia de SGOLab está diseñado para permitir la navegación 
 
 Este enfoque no busca resolver el problema original de forma directa, sino traducirlo a un entorno donde el análisis resulte analíticamente tratable y permita el uso de herramientas matemáticas más potentes.
 
-### Validación experimental
+### Validación experimental preliminar
 
 Los siguientes resultados muestran el comportamiento de un algoritmo basado en una solución única operando en un entorno puramente exploratorio, demostrando que la navegación basada en la geometría del dominio permite una convergencia estable incluso sin una reconstrucción explícita del paisaje de la función.
 
@@ -58,7 +59,7 @@ Se presentan las curvas de convergencia para las funciones Hiperesfera y Schwefe
 
 #### Dimensiones extremas
 
-Se evalúa el rendimiento del algoritmo en escenarios de Ultra-Large Scale Global Optimization (ULSGO), utilizando las funciones Hiperesfera y Ackley en 100,000 dimensiones. Bajo un presupuesto de 1,000,000 de evaluaciones, se grafica el error absoluto respecto al óptimo conocido para demostrar la robustez del modelo; estas pruebas representan un hito poco frecuente en la literatura técnica actual. Asimismo, se introducen visualmente las medidas relativas de progreso, cuya fundamentación técnica se detalla en la sección posterior.
+Se evalúa el rendimiento del algoritmo en escenarios de *Large Scale Global Optimization* (LSGO), utilizando las funciones Hiperesfera y Ackley en 100,000 dimensiones. Bajo un presupuesto de 1,000,000 de evaluaciones, se grafica el error absoluto respecto al óptimo conocido para demostrar la robustez del modelo; estas pruebas representan un hito poco frecuente en la literatura técnica actual. Asimismo, se introducen visualmente las medidas relativas de progreso, cuya fundamentación técnica se detalla en la sección posterior.
 
 - Función Ackley (100,000 dimensiones)
 
@@ -80,7 +81,7 @@ Se evalúa el rendimiento del algoritmo en escenarios de Ultra-Large Scale Globa
   <img src="results/preliminary-results/benchmark-functions/hypersphere/dim_1000000/Convergence_Hypersphere_D1000000_run1.png" width="70%" style="height:auto;" alt="Hypersphere D1000000"/>
 </p>
 
-
+*Asimismo, se pueden consultar otros experimentos en el siguiente enlace: [Benchmark Functions](https://github.com/misa-hdez/sgo-lab/tree/main/results/preliminary-results/benchmark-functions).*
 
 #### Importancia de la medida relativa de progreso
 
@@ -99,6 +100,8 @@ A diferencia de las curvas obtenidas en dimensiones extremas (que presentan una 
 <p align="left">
   <img src="results/preliminary-results/opfunu/cec2017/F19-Hybrid-Function-10/dim_100/convergence_analysis.png" width="70%" style="height:auto;" alt="F19 convergence"/>
 </p>
+
+*Resultados adicionales utilizando la suite de benchmarks **CEC 2017** están disponibles en el siguiente enlace: [CEC 2017 - Opfunu](https://github.com/misa-hdez/sgo-lab/tree/main/results/preliminary-results/opfunu/cec2017).*
 
 ## Dependencias
 
@@ -119,7 +122,6 @@ Si eres investigador, deseas conocer más sobre mi trabajo o buscas una colabora
 
 ## Pendientes 
 
-- [ ] Finalizar la redacción del *whitepaper* y los artículos académicos correspondientes
-- [ ] Preparar el código base para futuras liberaciones públicas una vez se alcance la validación académica formal
+Proximamente...
 
 
