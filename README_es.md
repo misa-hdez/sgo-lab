@@ -59,7 +59,8 @@ Se presentan las curvas de convergencia para las funciones Hiperesfera y Schwefe
 
 #### Dimensiones extremas
 
-Se evalúa el rendimiento del algoritmo en escenarios de *Large Scale Global Optimization* (LSGO), utilizando las funciones Hiperesfera y Ackley en 100,000 dimensiones. Bajo un presupuesto de 1,000,000 de evaluaciones, se grafica el error absoluto respecto al óptimo conocido para demostrar la robustez del modelo; estas pruebas representan un hito poco frecuente en la literatura técnica actual. Asimismo, se introducen visualmente las medidas relativas de progreso, cuya fundamentación técnica se detalla en la sección posterior.
+Se evalúa el rendimiento del algoritmo en escenarios de *Large Scale Global Optimization* (LSGO), utilizando las funciones Hiperesfera y Ackley en 100,000 dimensiones. Bajo un presupuesto de 1,000,000 de evaluaciones, se grafica el error absoluto respecto al óptimo conocido; para demostrar la robustez del modelo; la ejecución de estas pruebas en tales escalas permite validar la robustez del modelo en escenarios de complejidad extrema, poco documentados en la literatura técnica actual.
+Asimismo, se introducen visualmente las medidas relativas de progreso, cuya fundamentación técnica se detalla en la sección posterior.
 
 - Función Ackley (100,000 dimensiones)
 
@@ -81,7 +82,7 @@ Se evalúa el rendimiento del algoritmo en escenarios de *Large Scale Global Opt
   <img src="results/preliminary-results/benchmark-functions/hypersphere/dim_1000000/Convergence_Hypersphere_D1000000_run1.png" width="70%" style="height:auto;" alt="Hypersphere D1000000"/>
 </p>
 
-*Asimismo, se pueden consultar otros experimentos en el siguiente enlace: [Benchmark Functions](https://github.com/misa-hdez/sgo-lab/tree/main/results/preliminary-results/benchmark-functions).*
+*Asimismo, se pueden consultar otros experimentos en el siguiente enlace: [Benchmark Functions](results/preliminary-results/benchmark-functions).*
 
 #### Importancia de la medida relativa de progreso
 
@@ -101,7 +102,7 @@ A diferencia de las curvas obtenidas en dimensiones extremas (que presentan una 
   <img src="results/preliminary-results/opfunu/cec2017/F19-Hybrid-Function-10/dim_100/convergence_analysis.png" width="70%" style="height:auto;" alt="F19 convergence"/>
 </p>
 
-*Resultados adicionales utilizando la suite de benchmarks **CEC 2017** están disponibles en el siguiente enlace: [CEC 2017 - Opfunu](https://github.com/misa-hdez/sgo-lab/tree/main/results/preliminary-results/opfunu/cec2017).*
+*Además, se pueden consultar resultados adicionales utilizando la suite de benchmarks **CEC 2017** en el siguiente enlace: [CEC 2017 - Opfunu](results/preliminary-results/opfunu/cec2017).*
 
 ## Dependencias
 
