@@ -60,7 +60,7 @@ Convergence curves are presented for the Hypersphere and Schwefel functions unde
 
 ### Extreme Dimensions
 
-Performance is evaluated in Large Scale Global Optimization (LSGO) scenarios using the Hypersphere and Ackley functions in 100,000 dimensions. With a budget of 1,000,000 evaluations, the absolute error relative to the known optimum is reported.
+Performance is evaluated in *Large Scale Global Optimization* (LSGO) scenarios using the Hypersphere and Ackley functions in 100,000 dimensions. With a budget of 1,000,000 evaluations, the absolute error relative to the known optimum is reported.
 
 Experiments at this scale help validate the robustness of the model in extreme-complexity scenarios, which remain largely undocumented in current technical literature. Relative progress measures are also introduced visually, with technical details provided in later sections.
 
