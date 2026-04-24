@@ -21,7 +21,7 @@ Bajo estas condiciones, surge una pregunta fundamental:
 
 A lo largo de la historia, tanto en matemáticas como en física, problemas complejos han sido abordados mediante su representación en espacios alternativos, donde ciertas estructuras se vuelven más accesibles, como ocurre con las transformadas de Fourier y Laplace.
 
-Mientras que gran parte de los enfoques actuales se centran en aprender o aproximar la información del codominio para modelar el comportamiento de la función, SGOLab parte de una premisa distinta: el dominio no es un espacio inerte, sino una fuente potencial de estructura. En este contexto, la investigación no se centra en la reconstrucción del paisaje de la función, sino en la navegación inteligente del espacio mediante sistemas de referencia geométricos inducidos por las relaciones entre las muestras.
+Mientras que gran parte de los enfoques actuales se centran en aprender o aproximar la información del codominio para modelar el comportamiento de la función, SGOLab parte de una premisa distinta: *el dominio no es un espacio inerte, sino una fuente potencial de estructura*. En este contexto, la investigación no se centra en la reconstrucción del paisaje de la función, sino en la navegación inteligente del espacio mediante sistemas de referencia geométricos inducidos por las relaciones entre las muestras.
 
 ## Avances
 
@@ -121,7 +121,7 @@ Si eres investigador, deseas conocer más sobre mi trabajo o buscas una colabora
 - **Contacto:** [misa.hdez97@proton.me](mailto:misa.hdez97@proton.me)
 
 
-## Pendientes 
+## Roadmap 
 
 Proximamente...
 
