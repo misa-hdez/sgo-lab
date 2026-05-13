@@ -8,9 +8,13 @@ En este contexto, predecir el comportamiento de la función exige que tanto el m
 Ante la ausencia de información analítica explícita, resulta necesario definir un sistema de referencia relativo capaz de medir el avance del proceso de optimización a partir de las relaciones locales entre las muestras evaluadas, sin depender de representaciones completas de la función objetivo.
 
 ## Mínimo local como fundamento
-Para continuar nuestros análisis en un entorno *black-box* de optimización, retomaremos la definición de un mínimo local:  
+Para continuar nuestros análisis en un entorno *black-box* de optimización, retomaremos la definición de un mínimo local:
 
-Un punto $ x^* $ es considerado como tal si existe un valor $ \delta > 0 $ de modo que, para todo $x $ dentro de la región definida por $|x - x^*| \leq \delta$, se cumple que $$f(x^*) \leq f(x)$$
+Un punto $x^*$ es considerado como tal si existe un valor $\delta > 0$ de modo que, para todo $x$ dentro de la región definida por $|x - x^*| \leq \delta$, se cumple que:
+
+$$
+f(x^*) \leq f(x)
+$$
 
 Es decir, dentro de una vecindad de radio $\delta$ alrededor de $x^*$, ningún punto cercano alcanza un valor menor que el de $x^*$. Esta definición resulta especialmente útil en entornos *black-box*, ya que depende únicamente de comparaciones locales y no del conocimiento explícito de la función completa.
 
