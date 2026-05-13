@@ -10,7 +10,7 @@ Ante la ausencia de información analítica explícita, resulta necesario defini
 ## Mínimo local como fundamento
 Para continuar nuestros análisis en un entorno *black-box* de optimización, retomaremos la definición de un mínimo local:
 
-Un punto $x^{\ast}$ es considerado como tal si existe un valor $\delta > 0$ de modo que, para todo $x$ dentro de la región definida por $|x - x^\ast| \leq \delta$, se cumple que:
+Un punto $x^{\star}$ es considerado como tal si existe un valor $\delta > 0$ de modo que, para todo $x$ dentro de la región definida por $|x - x^\ast| \leq \delta$, se cumple que:
 
 $$
 f(x^\ast) \leq f(x)
