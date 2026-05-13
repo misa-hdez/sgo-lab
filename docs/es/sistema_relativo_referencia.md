@@ -10,23 +10,23 @@ Ante la ausencia de información analítica explícita, resulta necesario defini
 ## Mínimo local como fundamento
 Para continuar nuestros análisis en un entorno *black-box* de optimización, retomaremos la definición de un mínimo local:
 
-Un punto $x^{\star}$ es considerado como tal si existe un valor $\delta > 0$ de modo que, para todo $x$ dentro de la región definida por $|x - x^\ast| \leq \delta$, se cumple que:
+Un punto $x^{\star}$ es considerado como tal si existe un valor $\delta > 0$ de modo que, para todo $x$ dentro de la región definida por $|x - x^{\star}| \leq \delta$, se cumple que:
 
 $$
-f(x^\ast) \leq f(x)
+f(x^{\star}) \leq f(x)
 $$
 
-Es decir, dentro de una vecindad de radio $\delta$ alrededor de $x^\ast$, ningún punto cercano alcanza un valor menor que el de $x^\ast$. Esta definición resulta especialmente útil en entornos *black-box*, ya que depende únicamente de comparaciones locales y no del conocimiento explícito de la función completa.
+Es decir, dentro de una vecindad de radio $\delta$ alrededor de $x^{\star}$, ningún punto cercano alcanza un valor menor que el de $x^{\star}$. Esta definición resulta especialmente útil en entornos *black-box*, ya que depende únicamente de comparaciones locales y no del conocimiento explícito de la función completa.
 
 ## Sistema relativo de referencias
 
 A partir de la definición anterior, proponemos un sistema de referencia relativo que vincula distancias en el dominio con diferencias en el codominio. Consideremos el punto de partida $x_0$ y la mejor solución conocida $x_t$, donde $f(x_t) \leq f(x_0)$ . La distancia $|x_0 - x_t|$ es una medida confiable de separación en el espacio de decisión, pero carece de significado en términos de optimización si no se asocia con la diferencia funcional $|f(x_0) - f(x_t)|$. 
 
-En la práctica, el óptimo $x^*$ es desconocido por lo que el proceso de optimización se apoya en mejores relativos. Bajo esta condición, la mejora observada respecto a $x_t$ queda acotada por: $$|f(x_0) - f(x_t)| \leq |f(x_0) - f(x^*)|$$
+En la práctica, el óptimo $x^{\star}$ es desconocido por lo que el proceso de optimización se apoya en mejores relativos. Bajo esta condición, la mejora observada respecto a $x_t$ queda acotada por: $$|f(x_0) - f(x_t)| \leq |f(x_0) - f(x^{\star})|$$
 
-Si $x_t$ pertenece a una vecindad local asociada a $x^*$, entonces minimizar la función objetivo puede reinterpretarse localmente como la maximización del descenso funcional relativo: $$|f(x_0) - f(x_t)|$$
+Si $x_t$ pertenece a una vecindad local asociada a $x^{\star}$, entonces minimizar la función objetivo puede reinterpretarse localmente como la maximización del descenso funcional relativo: $$|f(x_0) - f(x_t)|$$
 
-sujeto a $$f(x^*) \leq f(x_t) \leq f(x_0)$$
+sujeto a $$f(x^{\star}) \leq f(x_t) \leq f(x_0)$$
 
 
 ## Unidad base de distancia
