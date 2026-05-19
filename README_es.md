@@ -122,6 +122,11 @@ Si eres investigador, deseas conocer más sobre mi trabajo o buscas una colabora
 
 - **Contacto:** [misa.hdez97@proton.me](mailto:misa.hdez97@proton.me)
 
+## Sigue la investigación
+
+Ideas, avances y discusiones sobre SGOLab se comparten en X:
+
+* **X (Twitter):** [@SGOLab](https://x.com/SGOLab)
 
 ## Roadmap 
 

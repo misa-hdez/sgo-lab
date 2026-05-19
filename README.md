@@ -4,6 +4,7 @@ SGOLab
 ![Research-In-Progress](https://img.shields.io/badge/Status-Research--In--Progress-orange)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
+
 *If you wish, you can consult the original Spanish version of this document:* [Spanish version](README_es.md)
 
 SGOLab is a personal research project within the program *Towards Scalable Geometric Optimization*, exploring a geometric reinterpretation of *black-box* optimization.
@@ -118,6 +119,11 @@ Since the mathematical model is currently undergoing formal documentation for pu
 If you are a researcher, interested in learning more about this work, or open to technical collaboration, feel free to reach out via email:
 
 - **Contact:** [misa.hdez97@proton.me](mailto:misa.hdez97@proton.me)
+
+## Follow the Research
+Ideas, progress update and discussions about SGOLab are shared on X:
+
+- **X (Twitter):** [@SGOLab](https://x.com/SGOLab)
 
 ## Roadmap
 
