@@ -18,7 +18,6 @@ problem = {
 model = OriginalMDP(epoch=MAX_ITER, pop_size=POP_SIZE)
 g_best = model.solve(problem)
 
-# ── PROCESAMIENTO Y GRÁFICAS DELEGADOS ───────────────────────────────────
 plot_convergence(
     fitness_list=model.history.list_global_best_fit,
     dist_start_list=model.history.dist_from_start,
@@ -27,6 +26,5 @@ plot_convergence(
     ndim=NDIM
 )
 
-# ── RESULTADOS FINALES ───────────────────────────────────────────────────
 print(f"[{func._name}][dim_{NDIM}] Fitness final: {g_best.target.fitness}")
 print(f" Best solution: {g_best.solution}")

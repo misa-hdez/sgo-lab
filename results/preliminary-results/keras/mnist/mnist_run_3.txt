@@ -1,0 +1,14 @@
+MNIST Neural Network Optimization (D=25,450)
+Objective: Cross-Entropy Loss
+
+MDP
+  Best Objective Value : 0.003631
+  Train Accuracy       : 100.0%
+  Validation Accuracy  : 94.1%
+  Test Accuracy        : 93.5%
+
+Adam
+  Final Objective Value: 0.002863
+  Train Accuracy       : 100.0%
+  Validation Accuracy  : 92.9%
+  Test Accuracy        : 92.6%
