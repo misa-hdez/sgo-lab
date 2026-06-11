@@ -114,9 +114,11 @@ Development, testing, and experimental execution rely on the following libraries
 
 ## Availability
 
-Since the mathematical model is currently undergoing formal documentation for publication in whitepapers and academic journals, access to the source code is temporarily restricted.
+Since the mathematical model is currently being formalized and documented for future *whitepapers* and academic publications, the full source code of the algorithm has not yet been released.
 
-If you are a researcher, interested in learning more about this work, or open to technical collaboration, feel free to reach out via email:
+To encourage experimentation and independent evaluation, a pre-compiled Linux shared library (.so) is provided in the `examples` directory. This binary can be used to reproduce a subset of the preliminary experiments reported in this repository. The accompanying examples may also serve as a starting point for defining, adapting and analyzing custom *black-box* optimization problems.
+
+Researchers interested in this work, potential collaborations or technical discussions are welcome to get in touch via email:
 
 - **Contact:** [misa.hdez97@proton.me](mailto:misa.hdez97@proton.me)
 

@@ -116,9 +116,11 @@ El desarrollo, las pruebas y ejecución de los experimentos de este proyecto se 
 
 ## Disponibilidad
 
-Debido a que el modelo matemático se encuentra en proceso de documentación formal para su publicación en *whitepapers* y revistas académicas, el acceso al código de fuente está restringido temporalmente.
+Dado que el modelo matemático se encuentra actualmente en proceso de formalización y documentación para futuros *whitepapers* y publicaciones académicas, el código fuente completo del algoritmo aún no ha sido liberado.
 
-Si eres investigador, deseas conocer más sobre mi trabajo o buscas una colaboración técnica, puedes contactar a través del correo:
+Para fomentar la experimentación y la evaluación independiente, se proporciona una biblioteca compartida precompilada para Linux (.so) en el directorio `examples`. Este binario puede ser utilizado para reproducir el subconjunto de experimentos preliminares reportados en este repositorio. Los ejemplos que lo acompañan también pueden servir como punto de partida para definir, adaptar y analizar problemas personalizados de optimización *black-box*.
+
+Los investigadores interesados en este trabajo, en posibles colaboraciones o en discusiones técnicas pueden ponerse en contacto por correo electrónico:
 
 - **Contacto:** [misa.hdez97@proton.me](mailto:misa.hdez97@proton.me)
 
