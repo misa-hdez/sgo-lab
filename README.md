@@ -7,7 +7,7 @@ SGOLab
 
 *If you wish, you can consult the original Spanish version of this document:* [Spanish version](README_es.md)
 
-SGOLab is a personal research project within the program *Towards Scalable Geometric Optimization*, exploring a geometric reinterpretation of *black-box* optimization.
+SGOLab (Scalable Geometric Optimization Laboratory) is a personal research project within the program *Towards Scalable Geometric Optimization*, exploring a geometric reinterpretation of *black-box* optimization.
 
 The project's central hypothesis is that the optimization process can be approached from an alternative space with less reliance on the codomain, by introducing a conceptual separation between the domain and the objective function.
 
